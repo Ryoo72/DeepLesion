@@ -69,6 +69,8 @@ Configure the class to only include 'lesion', and leave only one arbitrary palet
 
 If this step is not done correctly, a `ValueError: need at least one array to concatenate` will occur
 
+Follow the instructions at [https://mmdetection.readthedocs.io/en/latest/get_started.html](https://mmdetection.readthedocs.io/en/latest/get_started.html)
+
 ### 5️⃣ Run experiments
 
 ```bash
