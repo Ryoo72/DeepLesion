@@ -46,7 +46,9 @@ python coconize_me.py
 ~~~bash
 git clone https://github.com/Ryoo72/UNA.git
 cd UNA
-python una_inj.py --ratio 0.1 --class_type deeplesion --path {path_to_json} --target ./
+python una_inj.py --ratio 0.1 --class_type deeplesion --path {path_to_json} --target {target_path}
+# EXAMPLE
+# python una_inj.py --ratio 0.1 --class_type deeplesion --path ./DL_info.csv --target ./annotations
 ~~~
 
 ### 4️⃣ Setting Up MMDetection
@@ -68,6 +70,8 @@ Duplicate `mmdet/datasets/coco.py` → `mmdet/datasets/deeplesion.py`, rename th
 Configure the class to only include 'lesion', and leave only one arbitrary palette, removing the rest.
 
 If this step is not done correctly, a `ValueError: need at least one array to concatenate` will occur
+
+> If you have reached this point without changing the default path, it is convenient to directly move the current `DeepLesion` directory to `mmdetection/data/` for use.
 
 ### 5️⃣ Run experiments
 

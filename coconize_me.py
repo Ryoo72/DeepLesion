@@ -2,12 +2,12 @@ import pandas as pd
 import json
 
 # JSON 파일로 저장
-json_file_train = '/home/kwangrok.ryoo/Medical/Deep-Lesion/cocos/deeplesion_train.json'
-json_file_val = '/home/kwangrok.ryoo/Medical/Deep-Lesion/cocos/deeplesion_val.json'
-json_file_test = '/home/kwangrok.ryoo/Medical/Deep-Lesion/cocos/deeplesion_test.json'
+json_file_train = './annotations/deeplesion_train.json'
+json_file_val = './annotations/deeplesion_val.json'
+json_file_test = './annotations/deeplesion_test.json'
 
 # CSV 파일 경로
-csv_file_path = '/home/kwangrok.ryoo/Medical/Deep-Lesion/DL_info.csv'
+csv_file_path = './DL_info.csv'
 
 # CSV 데이터를 DataFrame으로 읽기
 df = pd.read_csv(csv_file_path)

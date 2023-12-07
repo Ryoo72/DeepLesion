@@ -2,8 +2,8 @@ import os
 import zipfile
 from tqdm import tqdm
 
-base_dir = "/home/kwangrok.ryoo/Medical/Deep-Lesion/zipfiles"
-output_dir = "/home/kwangrok.ryoo/Medical/Deep-Lesion/unzipfiles"
+base_dir = "./zipfiles"
+output_dir = "./unzipfiles"
 
 if not os.path.isdir(output_dir):
     os.makedirs(output_dir, 0o777)

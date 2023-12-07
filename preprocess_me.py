@@ -5,9 +5,9 @@ import cv2
 import os
 from tqdm import tqdm
 
-download_path = '/home/kwangrok.ryoo/Medical/Deep-Lesion/unzipfiles/Images_png'
-save_path = '/home/kwangrok.ryoo/Medical/Deep-Lesion/prepr_datasets'
-csv_path = '/home/kwangrok.ryoo/Medical/Deep-Lesion/DL_info.csv'
+download_path = './unzipfiles/Images_png'
+save_path = './prepr_datasets'
+csv_path = './DL_info.csv'
 
 if not os.path.isdir(save_path):
     os.makedirs(save_path, 0o777)
