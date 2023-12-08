@@ -48,7 +48,7 @@ git clone https://github.com/Ryoo72/UNA.git
 cd UNA
 python una_inj.py --ratio 0.1 --class_type deeplesion --path {path_to_json} --target {target_path}
 # EXAMPLE
-# python una_inj.py --ratio 0.1 --class_type deeplesion --path ./DL_info.csv --target ./annotations
+# python una_inj.py --ratio 0.1 --class_type deeplesion --path ./annotations/deeplesion_train.json --target ./annotations
 ~~~
 
 ### 4️⃣ Setting Up MMDetection
