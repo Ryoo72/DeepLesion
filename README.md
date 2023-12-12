@@ -41,7 +41,7 @@ In `coconize_me.py`, insert the location of `DL_info.csv` into `csv_file_path`
 python coconize_me.py
 ~~~
 
-### 3️⃣ Inject noise using UNA
+### 3️⃣ Inject noise using UNA (optional)
 
 ~~~bash
 git clone https://github.com/Ryoo72/UNA.git
