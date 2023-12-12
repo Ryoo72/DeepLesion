@@ -8,7 +8,7 @@
 ### 1️⃣ Preparing the Images
 
 ~~~bash
-git clone https://github.com/anir16293/Deep-Lesion/tree/master
+git clone https://github.com/anir16293/Deep-Lesion.git
 ~~~
 
 Modify the `download_directory` in `batch_download_zips.py`
