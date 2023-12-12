@@ -42,7 +42,11 @@ python coconize_me.py
 ~~~
 
 ### 3️⃣ Inject noise using UNA (optional)
-<img src=".una_preview.png">  
+
+<p align="center">
+ <img width="100%" src="./una_preview.png"/>
+</p>
+
 ~~~bash
 git clone https://github.com/Ryoo72/UNA.git
 cd UNA
